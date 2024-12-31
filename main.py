@@ -7,7 +7,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, CallbackContext
 import requests as req
 from random import randint, choice
-Token : Final = "6356453405:AAGTMPbQ-n-grE3A7UEMGzbBF0cFQSn2tZk"
+Token : Final = ""
 bot_username : Final = "@hardness_quality_bot"
 app = Application.builder().token(Token).build()
 bot = telegram.Bot(token=Token)
